@@ -1,0 +1,38 @@
+h1, h2 {
+    text-align: center;
+}
+
+#contenido {
+    margin-top: 40px;
+}
+.borrar,
+.borrar:hover {
+    float: right;
+    cursor: pointer;
+    color: red;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.list{
+    list-style: none;
+    background: aliceblue;
+    padding: 15px;
+    margin: 5px 0;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.6s ease;
+}
+.list:hover{
+    background: rgb(83, 142, 194);
+    color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transform: translateX(-7px);
+}
+.button-primary{
+    transition: 0.5s ease-in-out;
+}
+.button-primary:hover{
+    background: rgb(83, 142, 194) !important;
+}

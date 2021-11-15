@@ -30,8 +30,9 @@ function agregarTarea(e) {
     //agregamos el boton a la lista
     li.appendChild(boton);
     Lista.appendChild(li)
-
+    
     agregarLocalstorage(tarea)
+    tarea.value = '';
 }
 
 function eliminarTarea(e) {
